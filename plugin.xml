@@ -12,14 +12,13 @@
 		<engine name="cordova-ios" version=">=6.0.0" />
 	</engines>
 
-        <preference name="AUTOMATIC_DATA_COLLECTION_ENABLED" default="true" />
+        
 
 	<platform name="android">
 		
-		<preference default="32.5.0" name="ANDROID_FIREBASE_BOM_VERSION" />
-		<framework src="platform('com.google.firebase:firebase-bom:$ANDROID_FIREBASE_BOM_VERSION')" />
-		<framework src="com.google.firebase:firebase-inappmessaging-display" />
-		<framework src="com.google.firebase:firebase-analytics" />
+		
+		<framework src="com.google.firebase:firebase-inappmessaging-display:20.4.0" />
+		<framework src="com.google.firebase:firebase-analytics:21.5.0" />
 
 	</platform>
 </plugin>
