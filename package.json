@@ -30,7 +30,7 @@
     }
   ],
   "author": "EMI INDO",
-  "email": "cordova.c3addon@gmail.com"
+  "email": "cordova.c3addon@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EMI-INDO/emi-indo-cordova-in-app-messaging/issues"
