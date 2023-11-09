@@ -12,6 +12,8 @@
 		<engine name="cordova-ios" version=">=6.0.0" />
 	</engines>
 
+        <preference name="AUTOMATIC_DATA_COLLECTION_ENABLED" default="true" />
+
 	<platform name="android">
 		
 		<preference default="32.5.0" name="ANDROID_FIREBASE_BOM_VERSION" />
