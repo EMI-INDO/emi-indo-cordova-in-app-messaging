@@ -1,0 +1,35 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"
+	id="emi-indo-cordova-in-app-messaging" version="0.0.1">
+
+	<name>firebaseInAppMessaging</name>
+	<description>Cordova Plugin Firebase In-App Messaging</description>
+	<author>EMI INDO</author>
+	<license>ISC</license>
+
+	<js-module name="firebaseInAppMessaging" src="www/firebaseInAppMessaging.js">
+		<clobbers target="cordova.plugins.firebaseInAppMessaging" />
+	</js-module>
+
+	<engines>
+		<engine name="cordova" version=">=10.0.0" />
+		<engine name="cordova-android" version=">=11.0.0" />
+		<engine name="cordova-ios" version=">=6.0.0" />
+	</engines>
+
+	<platform name="android">
+		<preference default="32.5.0" name="ANDROID_FIREBASE_BOM_VERSION" />
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="firebaseInAppMessaging">
+				<param name="android-package" value="emi.indo.cordova.in.app.messaging.firebaseInAppMessaging" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml" />
+		<source-file src="src/android/firebaseInAppMessaging.java" target-dir="src/emi/indo/cordova/in/app/messaging" />
+
+		<framework src="platform('com.google.firebase:firebase-bom:$ANDROID_FIREBASE_BOM_VERSION')" />
+		<framework src="com.google.firebase:firebase-inappmessaging-display" />
+		<framework src="com.google.firebase:firebase-analytics" />
+
+
+	</platform>
+</plugin>

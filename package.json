@@ -1,0 +1,40 @@
+{
+  "name": "emi-indo-cordova-in-app-messaging",
+  "version": "0.0.1",
+  "description": "Cordova Plugin Firebase In-App Messaging",
+  "cordova": {
+    "id": "emi-indo-cordova-in-app-messaging",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-plugin-firebase-inappmessaging",
+    "cordova-plugin-firebase",
+    "cordova-plugin-firebase-in-app-messaging"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=10.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=11.0.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=6.0.0"
+    }
+  ],
+  "author": "EMI INDO",
+  "email": "cordova.c3addon@gmail.com"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EMI-INDO/emi-indo-cordova-in-app-messaging/issues"
+  },
+  "homepage": "https://github.com/EMI-INDO/emi-indo-cordova-in-app-messaging#readme"
+
+}
